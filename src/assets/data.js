@@ -1,52 +1,52 @@
-[
+export const navbar = [
   {
-    text: 'Characters',
-    url: '#',
+    text: "Characters",
+    url: "#",
     current: false,
   },
   {
-    text: 'Comics',
-    url: '#',
+    text: "Comics",
+    url: "#",
     current: true,
   },
   {
-    text: 'Movies',
-    url: '#',
+    text: "Movies",
+    url: "#",
     current: false,
   },
   {
-    text: 'TV',
-    url: '#',
+    text: "TV",
+    url: "#",
     current: false,
   },
   {
-    text: 'Games',
-    url: '#',
+    text: "Games",
+    url: "#",
     current: false,
   },
   {
-    text: 'Collectibles',
-    url: '#',
+    text: "Collectibles",
+    url: "#",
     current: false,
   },
   {
-    text: 'Videos',
-    url: '#',
+    text: "Videos",
+    url: "#",
     current: false,
   },
   {
-    text: 'Fans',
-    url: '#',
+    text: "Fans",
+    url: "#",
     current: false,
   },
   {
-    text: 'News',
-    url: '#',
+    text: "News",
+    url: "#",
     current: false,
   },
   {
-    text: 'Shop',
-    url: '#',
+    text: "Shop",
+    url: "#",
     current: false,
   },
 ];

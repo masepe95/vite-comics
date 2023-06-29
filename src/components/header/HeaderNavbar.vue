@@ -1,6 +1,6 @@
 <script>
 import HeaderLink from './HeaderLink.vue';
-import { navbar } from '@/assets/data'
+import { navbar } from '@/assets/data.js'
 export default {
     data() {
         return {
