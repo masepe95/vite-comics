@@ -44,7 +44,7 @@ export default {
 .footer-bottom {
     background-color: $gray;
     padding: 2rem 0;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     left: 0;
     right: 0;
