@@ -20,6 +20,13 @@ export default {
 </template>
 
 <style scoped>
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
 .container {
     display: flex;
     justify-content: space-between;

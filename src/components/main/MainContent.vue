@@ -1,13 +1,19 @@
 <script>
+import MainComicsContainer from './MainComicsContainer.vue';
+
 export default {
+    components: { MainComicsContainer }
 }
 </script>
 
 <template>
+    <section id="jumbotron">
+        <figure>
+            <img src="@/assets/img/jumbotron.jpg" alt="jumbotron">
+        </figure>
+    </section>
     <section id="content">
-        <div class="container">
-            <h2>Content goes here</h2>
-        </div>
+        <MainComicsContainer />
     </section>
 </template>
 
@@ -16,6 +22,11 @@ export default {
 
 #content {
     background-color: $dark_gray;
+
+    #jumbotron {
+        height: 400px;
+        overflow: hidden;
+    }
 
     .container {
         height: 100%;

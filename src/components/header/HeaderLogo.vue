@@ -9,7 +9,7 @@ export default {
     </figure>
 </template>
 
-<style>
+<style scoped>
 figure {
     margin: .5rem 0;
 }
