@@ -1,4 +1,4 @@
-export const navbar = [
+export default = [
   {
     text: "Characters",
     url: "#",

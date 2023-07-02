@@ -1,11 +1,9 @@
 <script>
 import HeaderLink from './HeaderLink.vue';
-import { navbar } from '@/assets/data.js'
+
 export default {
-    data() {
-        return {
-            navbar
-        }
+    props: {
+        navbar: Array
     },
     components: { HeaderLink }
 }

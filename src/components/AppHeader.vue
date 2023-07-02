@@ -3,6 +3,9 @@ import HeaderLogo from './header/HeaderLogo.vue'
 import HeaderNavbar from './header/HeaderNavbar.vue'
 
 export default {
+    props: {
+        navbar: Array
+    },
     components: { HeaderLogo, HeaderNavbar }
 }
 </script>
@@ -11,7 +14,7 @@ export default {
     <header>
         <div class="container">
             <HeaderLogo />
-            <HeaderNavbar />
+            <HeaderNavbar :navbar="navbar" />
         </div>
     </header>
 </template>

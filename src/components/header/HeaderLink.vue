@@ -1,6 +1,8 @@
 <script>
 export default {
-    props: ["item"],
+    props: {
+        item: Object
+    },
     computed: {
         capitalizedText() {
             return this.item.text.toUpperCase();
