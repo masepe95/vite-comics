@@ -33,7 +33,6 @@ export default {
 
     flex-wrap: wrap;
 
-    margin: 5rem 0;
 
 
 

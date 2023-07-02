@@ -23,19 +23,15 @@ export default {
 <style lang="scss" scoped>
 @use '@/assets/scss/vars' as *;
 
+#jumbotron {
+    height: 400px;
+    overflow: hidden;
+}
+
 #content {
     background-color: $dark_gray;
-
-    #jumbotron {
-        height: 400px;
-        overflow: hidden;
-    }
-
-    .container {
-        height: 100%;
-        display: flex;
-        align-items: center;
-    }
+    position: relative;
+    padding-bottom: 3rem;
 }
 
 h2 {
